@@ -208,7 +208,7 @@ const details = async (specific) => {
                             <div class="card-actions flex justify-around">
                                 <button class="btn text-btn-1 font-bold bg-white border-2 " id="add" onclick="addtocart('${info.image || " Not available"}')"><i
                                         class="fa-solid fa-heart text-xl text-red-500"></i></button>
-                                <button class="btn text-btn-1 font-bold bg-white border-2 ">Adopt</button>
+                                <button class="btn text-btn-1 font-bold bg-white border-2 " onclick="Adoptbuttonhandale()">Adopt</button>
                                 <button class="btn text-btn-1 font-bold bg-white border-2" onclick="Detailbuttonhandle('${info.image}','${info.pet_name}','${info.breed}','${info.date_of_birth}','${info.gender}','${info.price}','${info.petId}')">Details</button>
                             </div>
                         </div>
